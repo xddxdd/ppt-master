@@ -189,3 +189,13 @@ projects/*
 skills/ppt-master/templates/brands/*/exports/
 skills/ppt-master/templates/decks/*/exports/
 skills/ppt-master/templates/layouts/*/exports/
+
+# Nix / Flakes
+result
+result-*
+# flake.lock MUST be committed for reproducible devShells (overrides *.lock above)
+!flake.lock
+
+# direnv
+.direnv/
+.envrc.local
