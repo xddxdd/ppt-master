@@ -1,7 +1,7 @@
 {
   description = "PPT Master — Python devShell for the presentation generation workflow";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
   outputs = { self, nixpkgs }:
     let
